@@ -67,11 +67,9 @@ int main(){
         printf("\n\n\n");
    //variables here
     int i, userChoice; 
-    char choiceXO; 
     char arr[9] = {' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' '}; //this one is for the current positions and their status
     int size = sizeof(arr) / sizeof(arr[0]); //Gets size of array?
     int turns, whoStart = 0; //this governs turns
-    int randomIndexCh;
     int randomIndex;
     srand(time(0)); //initalizes the time
 
@@ -80,7 +78,7 @@ int main(){
     
     turns = whoStart; //whoStart is weather you are X or O, turns is who's turn it is
 
-    //main for loop where shit goes down
+    //main for loop  
     for (i = 0; i < 9; i++)
     {
       //if the player chooses to go first
@@ -143,7 +141,7 @@ int main(){
            }
 
         }
-        //shitty canavs with choices here... took ages
+        // canavs with choices here... took ages
         printf("\n\n\n");
         printf("        |      |  \n");
         printf("     %c  |  %c   | %c \n", arr[0], arr[1], arr[2]);
@@ -157,8 +155,7 @@ int main(){
 
 
 
-        /*BULLSHIT BELOW
-        /*FOR X HORIZANTAL*/
+        //FOR X HORIZANTAL
         
         /*FOR X FIRST ROW*/
 
