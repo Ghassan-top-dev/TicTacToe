@@ -1,1 +1,3 @@
-Tic Tac Toe project
+To run...
+
+Paste the code into an online compiler or your own terminal with a C compiler and enjoy!
